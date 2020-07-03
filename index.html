@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="yenilikci">
+    <meta name="url" content="https://github.com/yenilikci/JavaScript-Doviz-Ceviri-API">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Döviz Çeviri Uygulaması</title>
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container justify-content-center">
+            <a href="" class="navbar-brand">Döviz Çeviri Uygulaması</a>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+
+                <div class="form-group">
+                    <select id="currency_one" class="custom-select">
+                        <option>Para Birimini Seçiniz</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <select id="currency_two" class="custom-select">
+                        <option>Para Birimini Seçiniz</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="number" id="amount" class="form-control" placeholder="Miktar">
+                </div>
+
+                <button class="btn btn-primary btn-block" id="btn_calculate">Hesapla</button>
+
+                <div class="rounded text-white p-2 text-center mt-3 bg-dark" id="result">
+                    1 Dolar = 6.85 try
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
